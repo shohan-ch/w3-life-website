@@ -1,0 +1,86 @@
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #EAEDED;
+    color: #444444;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.padding{
+    padding-bottom: 45px;
+}
+.pad{
+    margin-top: 100px;
+}
+.my-4{
+    width: 45%;
+    border-bottom: 2px solid coral;
+    margin: 0 auto;
+}
+.navbar{
+    background-color: #232F3E!important;
+    padding: 4px;
+}
+.navbar-brand img{
+    width: 100px;
+    margin-left: 12px;
+    border-radius: 7px;
+   
+}
+.navbar-nav li{
+    padding-right: 45px;
+    font-size: 15px;
+}
+
+.nav-link::after{
+    content: '';
+    width: 0;
+    display: block;
+    height: 3px;
+    background: #E0A800;
+    transition: width .3s;
+}
+.nav-link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+ }
+ .carousel-caption{
+     position: absolute;
+     top: 50%;
+     bottom: 50;
+     transform: translateY(-30%);
+ }
+ .carousel-caption h3{
+     text-shadow: 0 0 5px #FFFFFF;
+ }
+ .btn-outline-warning{
+     width: 250px;
+     margin-top: 20px;
+
+ }
+     
+ 
+.card{
+    background-color: #FEFEFE;
+    margin-top:20px;
+    padding: 25px; 
+    box-shadow: 1px 4px 5px white;
+   
+}
+#twocolumn{
+    background-color: #FEFEFE;
+    padding: 30px;
+}
+.right{
+    padding: 30px;
+}
+.btn{
+    box-shadow: 1px 1px 10px white;
+}
+
